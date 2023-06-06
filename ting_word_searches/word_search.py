@@ -20,7 +20,15 @@ def exists_word(word, instance):
 
 
 def search_by_word(word, instance):
-    """Aqui irá sua implementação"""
+    files_list = exists_word(word, instance)
 
-
-print("teste".find("a"))
+    for index in range(len(files_list)):
+        for n in range(len(instance)):
+            file = instance.search(n)
+            if file["nome_do_arquivo"] == files_list[index]["arquivo"]:
+                for i in range(len(files_list[index]["ocorrencias"])):
+                    file_lines = file["linhas_do_arquivo"]
+                    line_number = files_list[index]["ocorrencias"][i]["linha"]
+                    conteudo = file_lines[line_number - 1]
+                    files_list[index]["ocorrencias"][i]["conteudo"] = conteudo
+    return files_list
