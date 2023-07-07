@@ -6,10 +6,14 @@
 developed as a [Trybe](https://www.betrybe.com) Project.
 
 ## 💻 About this project
-Some files may have been provided by [Trybe](https://www.betrybe.com) to accelerate the application development start.
+Some files have been provided by [Trybe](https://www.betrybe.com) to accelerate the application development start, as some files in `./statics` that were used to test.
 
 ## 🛠️ Built with
 <a href="https://docs.python.org/3/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
+
+## 🎯 Used skills
+- Integrated class modularization
+- Operations' asymptotic analysis
 
 ## 🏁 Getting started
 ### 🐍 Installing Python 3
