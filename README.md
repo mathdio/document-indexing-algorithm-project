@@ -2,10 +2,11 @@
 >
 > Although this README has some solid guidance, more info is yet to be added. The "About this project" section is incomplete, for example.
 
-# 📑 Document Indexing
-developed as a [Trybe](https://www.betrybe.com) Project.
+# 📑 Document Indexing Algorithm
+A Google-like document indexing algorithm, developed as a [Trybe](https://www.betrybe.com) Project.
 
 ## 💻 About this project
+In this application the user can annex text files to later operate search functions on these files. Thus, the application has a files management module and a word search module.
 Some files have been provided by [Trybe](https://www.betrybe.com) to accelerate the application development start, as some files in `./statics` that were used to test.
 
 ## 🛠️ Built with
