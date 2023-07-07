@@ -1,7 +1,3 @@
-> # :construction: This README is still under construction! :construction:
->
-> Although this README has some solid guidance, more info is yet to be added. The "About this project" section is incomplete, for example.
-
 # 📑 Document Indexing Algorithm
 A Google-like document indexing algorithm, developed as a [Trybe](https://www.betrybe.com) Project.
 
